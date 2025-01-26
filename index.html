@@ -9,10 +9,12 @@
 <body>
     <header>
     <h1>Welcome to my Portfolio</h1>
-    <a href="" ><button class="button"> About </button></a>
-    <a href=""><button class="button">Skills</button></a>
-    <a href=""><button class="button">Projects</button></a>
-    <a href=""><button class="button">Contacts</button></a>
+    <div>
+    <a href="#about" ><button class="button"> About </button></a>
+    <a href="#skills"><button class="button">Skills</button></a>
+    <a href="#projects"><button class="button">Projects</button></a>
+    <a href="#contact"><button class="button">Contacts</button></a>
+    </div>
     </header>
     <main>
         <section id="about">
@@ -49,31 +51,39 @@
     <h1>Contact Me</h1>
     <p>Feel free to get in touch with me using the form below </p>
     <form>
+        <div>
         <label for="Name">Name</label>
         <input type="text">
-        <br>
-
+        </div>
+        
+        <div>
         <label for="email">Email:</label>
         <input type="email">
-        <br>
-
+        </div>
+        
+        <div>
         <b>Choose your gender: </b>
         <input type="radio" id="male" value="male">
         <label for="male">Male</label>
         <input type="radio" id="female" value="female">
         <Label for="female">Female</Label>
-        <br>
-
+        </div>
+        
+        <div>
         <b>Select your intrests:</b>
         <input type="checkbox" id="reading" value="reading">
         <label for="reading">Reading</label>
         <input type="checkbox" id="coding" value="coding">
         <label for="coding">coding</label>
-        <br>
+        </div>
+        
         <button type="submit" class="submit">Submit</button>
     </form>
     </section>
     </main>
+    <a href="">
+    <button class="fixedbutton">TOP</button>
+    </a>
     <footer>
         <p>© 2025 My Portfolio </p>
     </footer>
